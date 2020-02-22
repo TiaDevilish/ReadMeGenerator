@@ -17,8 +17,13 @@ const questions = [
 },
 {
     type:"input",
-    message: "Is there an installation process?",
+    message: "What is the installation process?",
     name: "install"
+},
+{
+    type:"input",
+    message: "Explain how to run your project.",
+    name:"runproject"
 },
 {
     type:"input", 
@@ -30,6 +35,11 @@ const questions = [
     message: "Add other contributors besides yourself, if any:",
     name: "credits"
 },
+{
+    type:"input",
+    message: "What are the licenses used for this project?",
+    name:" license"
+}
 ];
 
 function writeToFile(fileName, data) {
