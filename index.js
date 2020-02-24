@@ -3,6 +3,7 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require('fs');
 const convertFactory = require('electron-html-to');
+require("dotenv").config()
 
 const questions = [
 {
@@ -47,13 +48,12 @@ function writeToFile(fileName, data) {
 
 function init() {
 inquirer.prompt(questions).then(function(res){
-// console.log(res)
 //make api call to get user info from github,get stars etc
 apiKey.getUser(username);
 //connected with the data that i get from the terminal
 
 const markdown = generateMarkdown(res)
-// console.log(markdown)
+
 })
 }
 
