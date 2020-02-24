@@ -9,13 +9,15 @@ const api = {
         username: process.env.CLIENT_ID,
         password: process.env.CLIENT_PASS
       }
-    }).then(res => {
-      const userData = res.data;
-      console.log(userData);
+    }).then(function(res){
+      const resData = res.data(function(){
+        return resData;
+      })
     })
-    .catch(err => {
-      console.log("err", err);
+    .catch(function(err){
+      console.log("err", err)
     })
+
   }
 };
 
