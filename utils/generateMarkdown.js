@@ -12,7 +12,7 @@ function generateMarkdown(data, avatar, email) {
   ## What is the usage of this project?
   ${data.usage}
 
-  ## Contributors
+  ## Contributors:
   ${data.credits}
   
   ## Email me at:
@@ -21,8 +21,9 @@ function generateMarkdown(data, avatar, email) {
   ![alt](${avatar})
 
   ## License
-  ${data.license}
+  
 `;
 }
 
 module.exports = generateMarkdown;
+// ${data.license}
