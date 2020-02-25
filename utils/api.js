@@ -1,8 +1,8 @@
 const axios = require("axios");
-const dotenv = require('dotenv').config();
+require('dotenv').config();
 const api = {
   getUser(username) {
-    axios({
+    return axios({
       url: `https://api.github.com/users/${username}`,
       method: "GET",
       auth: {
@@ -10,9 +10,7 @@ const api = {
         password: process.env.CLIENT_PASS
       }
     }).then(function(res){
-      const resData = res.data(function(){
-        return resData;
-      })
+      return res.data
     })
     .catch(function(err){
       console.log("err", err)

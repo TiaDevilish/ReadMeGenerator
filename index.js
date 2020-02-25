@@ -1,9 +1,10 @@
-const apiKey = require("./utils/api");
+const api = require("./utils/api");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 const username = require("./utils/api")
 const fs = require('fs');
 const convertFactory = require('electron-html-to');
+
 
 const questions = [
 {
@@ -43,19 +44,29 @@ const questions = [
 }
 ];
 
+
+
 function writeToFile(fileName, data) {
+    return fs.writeFile(fileName, data, function(err){
+        if(err)throw err
+    })
 }
 
 function init() {
 inquirer.prompt(questions).then(function(res){
 
 //make api call to get user info from github,get stars etc
-
+api.getUser(res.username).then(function({email,avatar_url}){
+    const markdown = generateMarkdown(res,avatar_url, email)
+    writeToFile("README.md", markdown)
+}).catch(function(err){
+    console.log("err", err)
+  })
 //connected with the data that i get from the terminal
 
-const markdown = generateMarkdown(res)
-// console.log(markdown)
+
 })
 }
 
 init();
+

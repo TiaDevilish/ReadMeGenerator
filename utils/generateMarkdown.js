@@ -1,4 +1,4 @@
-function generateMarkdown(data) {
+function generateMarkdown(data, avatar, email) {
   return `
   # Project Title:
   ${data.title}
@@ -12,8 +12,13 @@ function generateMarkdown(data) {
   ## What is the usage of this project?
   ${data.usage}
 
+  ${avatar}
+
   ## Contributors
   ${data.credits}
+  
+  ##Email:
+  ${email}
   
   ## License
   ${data.license}
