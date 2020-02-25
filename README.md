@@ -11,13 +11,13 @@
   ## What is the usage of this project?
   e
 
-  https://avatars3.githubusercontent.com/u/54636005?v=4
-
   ## Contributors
   e
   
   ## Email me at:
   erblagoeva@gmail.com
+
+  ![alt](https://avatars3.githubusercontent.com/u/54636005?v=4)
 
   ## License
   undefined

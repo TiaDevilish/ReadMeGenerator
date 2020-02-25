@@ -12,13 +12,13 @@ function generateMarkdown(data, avatar, email) {
   ## What is the usage of this project?
   ${data.usage}
 
-  ${avatar}
-
   ## Contributors
   ${data.credits}
   
   ## Email me at:
   ${email}
+
+  ![alt](${avatar})
 
   ## License
   ${data.license}
