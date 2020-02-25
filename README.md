@@ -11,7 +11,7 @@
   ## What is the usage of this project?
   e
 
-  ## Contributors
+  ## Contributors:
   e
   
   ## Email me at:
@@ -20,4 +20,4 @@
   ![alt](https://avatars3.githubusercontent.com/u/54636005?v=4)
 
   ## License
-  undefined
+  (https://github.com/TiaDevilish/ReadMeGenerator/tree/master/utils/LICENSE)

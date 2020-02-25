@@ -21,7 +21,7 @@ function generateMarkdown(data, avatar, email) {
   ![alt](${avatar})
 
   ## License
-  
+  (https://github.com/TiaDevilish/ReadMeGenerator/tree/master/utils/LICENSE)
 `;
 }
 
