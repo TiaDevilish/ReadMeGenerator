@@ -1,18 +1,18 @@
 
   # Project Title:
-  e ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)(https://github.com/TiaDevilish/ReadMeGenerator/tree/master/utils/)
+  ReadMeGenerator ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)(https://github.com/TiaDevilish/ReadMeGenerator/tree/master/utils/)
   
   ## Installation process needed to run the program:
-  e
+  npm install
   
   ## How to run the project?
-  e
+  First install npm, then open your terminal and run node index.js, answer all the prompts and voila!
   
   ## What is the usage of this project?
-  e
+  To generate README.md file for the user
 
   ## Contributors:
-  e
+  Ekaterina Blagoeva
   
   ## Email me at:
   erblagoeva@gmail.com
