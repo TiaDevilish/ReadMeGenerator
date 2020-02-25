@@ -34,7 +34,7 @@ const questions = [
 },
 {
     type:"input",
-    message: "Add other contributors besides yourself, if any:",
+    message: "Add contributors to this project:",
     name: "credits"
 },
 {
