@@ -1,7 +1,7 @@
 function generateMarkdown(data, avatar, email) {
   return `
   # Project Title:
-  ${data.title} ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)(https://github.com/ellerbrock/open-source-badges/)
+  ${data.title} ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)(https://github.com/TiaDevilish/ReadMeGenerator/tree/master/utils/)
   
   ## Installation process needed to run the program:
   ${data.install}
