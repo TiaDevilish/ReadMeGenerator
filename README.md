@@ -1,6 +1,6 @@
 
   # Project Title:
-  e
+  e ![GitHub license](https://img.shields.io/github/v/TiaDevilish/ReadMeGenerator)
   
   ## Installation process needed to run the program:
   e
@@ -16,8 +16,8 @@
   ## Contributors
   e
   
-  ##Email:
+  ## Email me at:
   erblagoeva@gmail.com
-  
+
   ## License
   undefined

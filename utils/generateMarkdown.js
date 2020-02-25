@@ -1,7 +1,7 @@
 function generateMarkdown(data, avatar, email) {
   return `
   # Project Title:
-  ${data.title}
+  ${data.title} ![GitHub license](https://img.shields.io/github/v/TiaDevilish/ReadMeGenerator)
   
   ## Installation process needed to run the program:
   ${data.install}
@@ -17,9 +17,9 @@ function generateMarkdown(data, avatar, email) {
   ## Contributors
   ${data.credits}
   
-  ##Email:
+  ## Email me at:
   ${email}
-  
+
   ## License
   ${data.license}
 `;
